@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(163, 163, 163);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+.container{
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 75px rgb(0, 0, 0);
+    margin:0 40px;
+}
+.container h1{
+    font-weight: 400;
+    padding-bottom: 4px;
+    font-size: 25px;
+}
+.amount p{
+    text-align: center;
+    font-size: 18px;
+}
+.amount input{
+   width: 100%;
+   height: 40px;
+   font-size: 18px;
+   /* border-radius: 5px; */
+   padding: 0 5px;
+}
+.dropDown{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.select-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.dropDown img{
+    width: 30px;
+}
+.msg{
+    margin-top: 10px;
+    text-align: center;
+   
+}
+button{
+    margin-top: 10px;
+    width: 100%;
+    padding: 4px 4px;
+    font-weight: 500;
+    background-color: rgb(26, 127, 26);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 40px;
+}
